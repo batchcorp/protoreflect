@@ -32,6 +32,9 @@ func (r *parseResult) createFileDescriptor(filename string, file *fileNode) {
 			fd.Syntax = proto.String(file.syntax.syntax.val)
 		}
 	} else {
+		if file.first == nil || file.last == nil {
+			return
+		}
 		r.errs.warn(file.start(), ErrNoSyntax)
 	}
 
