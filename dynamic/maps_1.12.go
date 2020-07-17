@@ -3,7 +3,7 @@
 package dynamic
 
 import (
-	"github.com/jhump/protoreflect/desc"
+	"github.com/batchcorp/protoreflect/desc"
 	"reflect"
 )
 

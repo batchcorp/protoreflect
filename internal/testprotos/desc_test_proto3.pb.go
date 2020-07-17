@@ -7,7 +7,7 @@ import (
 	context "context"
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	pkg "github.com/jhump/protoreflect/internal/testprotos/pkg"
+	pkg "github.com/batchcorp/protoreflect/internal/testprotos/pkg"
 	grpc "google.golang.org/grpc"
 	math "math"
 )

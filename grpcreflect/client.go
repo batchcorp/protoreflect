@@ -15,8 +15,8 @@ import (
 	rpb "google.golang.org/grpc/reflection/grpc_reflection_v1alpha"
 	"google.golang.org/grpc/status"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/internal"
+	"github.com/batchcorp/protoreflect/desc"
+	"github.com/batchcorp/protoreflect/internal"
 )
 
 // elementNotFoundError is the error returned by reflective operations where the
